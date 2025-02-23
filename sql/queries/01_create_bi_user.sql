@@ -1,9 +1,3 @@
-CREATE USER 'bi_user'@'%' IDENTIFIED BY 'senhaBI';
-SELECT user, host FROM mysql.user;
-GRANT SELECT ON olist.order TO 'bi_user'@'%';
-GRANT SELECT ON olist.product TO 'bi_user'@'%';
-GRANT SELECT ON olist.customer TO 'bi_user'@'%';
-GRANT SELECT ON olist.order_payment TO 'bi_user'@'%';
-GRANT SELECT ON olist.seller TO 'bi_user'@'%';
-GRANT SELECT ON olist.geo_location TO 'bi_user'@'%';
-SHOW GRANTS FOR bi_user;
+version https://git-lfs.github.com/spec/v1
+oid sha256:500d4b8b2bd0d0aba4043416af0b6189274eb8e2f2e14bb04ae843e5c493c102
+size 407
